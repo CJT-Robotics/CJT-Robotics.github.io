@@ -91,7 +91,16 @@ main div#top h2 {
     font-size: 35px;
 }
 
-main div#top a {
+main div#top div#download {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+main div#top div#download a {
     width: 150px;
     height: 50px;
     text-align: center;
@@ -99,7 +108,6 @@ main div#top a {
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    margin-top: 75px;
     text-decoration: none;
     color: black;
     font-family: 'Poppins';
