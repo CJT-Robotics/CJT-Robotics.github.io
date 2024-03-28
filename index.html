@@ -1,285 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="robots" content="noodp" />
-   <meta name="description" content="Welcome to the website of the CJT-Robotics Team of the Christoph-Jacob-Treu Gymnasium Lauf an der Pegnitz." />
-   <link rel="icon" href="res/logo.png" />
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-   <link rel="stylesheet" href="style.css">
-   <title>CJT-Robotics</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="robots" content="noodp" />
+		<meta
+			name="description"
+			content="Welcome to the website of the CJT-Robotics Team of the Christoph-Jacob-Treu Gymnasium Lauf an der Pegnitz."
+		/>
+		<link rel="icon" href="res/logo.png" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>CJT-Robotics</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<header id="header">
+			<div class="wrapper" id="headerWrapper">
+				<!-- Left side of the header -->
+				<div id="headerLogo">
+					<img src="res/logo.png" alt="Logo of the 'CJT Robotics Team'" />
+					<p>CJT-Robotics</p>
+				</div>
+				<!-- END Left side of the header -->
 
-   <!-- HEADER -->
-   <header id="header">
-      <div class="wrapper" id="headerWrapper">
+				<!-- Right side of the header -->
+				<div id="headerNavbar">
+					<ul id="navbar">
+						<li class="navbarElements"><a href="#">Home</a></li>
+						<li class="navbarElements"><a href="#team">Team</a></li>
+						<li class="navbarElements"><a href="#sponsors">Sponsors</a></li>
+						<li class="navbarElements"><a href="#resources">Resources</a></li>
+						<li class="navbarElements"><a href="#socials">Socials</a></li>
+						<li class="navbarElements"><a href="#footer">Imprint</a></li>
+					</ul>
+				</div>
+				<!-- END Right side of the header -->
+			</div>
+		</header>
+		<!-- END HEADER -->
 
-         <!-- Left side of the header -->
-         <div id="headerLogo">
-            <img src="res/logo.png" alt="Logo of the 'CJT Robotics Team'">
-            <p>CJT-Robotics</p>
-         </div>
-         <!-- END Left side of the header -->
-
-         <!-- Right side of the header -->
-         <div id="headerNavbar">
-            <ul id="navbar">
-               <li class="navbarElements"><a href="#">Home</a></li>
-               <li class="navbarElements"><a href="#team">Team</a></li>
-               <li class="navbarElements"><a href="#sponsors">Sponsors</a></li>
-               <li class="navbarElements"><a href="#resources">Resources</a></li>
-               <li class="navbarElements"><a href="#socials">Socials</a></li>
-               <li class="navbarElements"><a href="#footer">Imprint</a></li>
-            </ul>
-         </div>
-         <!-- END Right side of the header -->
-      </div>
-   </header>
-   <!-- END HEADER -->
-
-   <!-- CONTENT -->
-   <!-- LANDING PAGE -->
-   <section id="landing">
-      <div class="wrapper" id="landingWrapper">
-         <h1 class="animationLeft">Hi, We're the <span>CJT-Robotics Team</span><br>of the <a href="https://www.cjt-gym-lauf.de/" target="_blank">Christoph-Jacob-Treu-Gymnasium</a></h1>
-      </div>
-   </section>
-   <!-- END LANDING PAGE -->
-   <!-- ABOUT US PAGE -->
-   <section id="team">
-      <div class="wrapper" id="teamWrapper">
-         <div id="leftTeam">
-            <img src="res/robot.png" alt="Image of our Robot 'Error 404'">
-            <p>Our Robot 'Error 404'</p>
-         </div>
-         <div id="rightTeam">
-            <h1 class="section-headline animationLeft">About us</h1>
-            <div>
-               <p class="animationRight" id="aboutUsText">We are a group of about ten high school students who are building robots to compete in the <a href="https://major.robocup.de/ligen/rescue/?lang=en" target="_blank">GermanOpen</a> and the <a href="https://www.robocup.org/leagues/10" target="_blank">world championship</a>. The category in which we are participating is called <a href="https://rrl.robocup.org/" target="_blank">Robots Rescue League (RRL)</a>. The aim is to develop a robot that is capable of driving into potentially dangerous terrain, for example, destroyed houses after an earthquake, and check for survivors. We are the only school that has ever participated in these championships for a dozen years. We are currently working on the robot named 'Error 404'. This name corresponds to the phrase 'Error 404 Robot not Found'. The history behind this name is that we started working on this robot just before the Robocup started, so we went there with a robot that basically didn’t exist.</p>
-            </div>
-            <div class="animationBottom" id="tab-titles">
-               <p class="tab-link active-link" onclick="opentab('rewards')">Rewards</p>
-               <p class="tab-link" onclick="opentab('events')">Upcoming Events</p>
-               <p class="tab-link" onclick="opentab('members')">Team Members</p>
-            </div>
-            <div>
-               <div class="tab-content active-tab" id="rewards">
-                  <ul>
-                     <li>
-                        <span>RoboCup Germany GermanOpen 2023</span>
-                        <br />
-                        Winner of the category "Small Robots" in the RobotsRescueLeague
-                     </li>
-                  </ul>
-               </div>
-               <div class="tab-content" id="events">
-                  <ul>
-                     <li>
-                        <span>17th April 2024 - 21th April 2024</span>
-                        <br />
-                        RoboCup GermanOpen 2024
-                     </li>
-                     <li>
-                        <span>15th July 2024 - 22th July 2024</span>
-                        <br />
-                        RoboCup WorldCup 2024
-                     </li>
-                     <li>
-                        <span>Unknown</span>
-                        <br />
-                        Coming soon
-                     </li>
-                  </ul>
-               </div>
-               <div class="tab-content" id="members">
-                  <ul>
-                     <li><span>3D-Engineer</span><br />Noah Heckel</li>
-                     <li><span>Constructor</span><br />Linus Gürne</li>
-                     <li><span>Technician</span><br />Tim Hennig</li>
-                     <li><span>Technician</span><br />Max Müller</li>
-                     <li><span>Python & Network Developer</span><br />Philipp Fischer</li>
-                     <li><span>C++ & Network Developer</span><br />Markus Peltsarszky</li>
-                     <li><span>Team Leader</span><br />Rudolf Pausenberger</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- END ABOUT US PAGE -->
-   <!-- SPONSOR PAGE -->
-   <section id="sponsors">
-      <div class="wrapper" id="sponsorsWrapper">
-         <h1 class="section-headline animationLeft">Our Sponsors</h1>
-         <div class="container" id="containerSponsors">
-            <div class="card card--sponsor animationRight">
-               <div class="card-head">
-                  <img src="res/icons/Siemens.png" alt="" class="card-logo">
-                  <h3 class="card-headline">Siemens</h3>
-               </div>
-               <p class="card-description">We extend our heartfelt appreciation to Siemens for providing us with the cutting-edge IPC (Industrial PC) that has significantly enhanced our technological capabilities. With Siemens' advanced technology and reliability, we have been able to achieve new heights in our projects.
-                  <br>
-                  To learn more about Siemens and discover their wide range of innovative solutions, visit their today!</p>
-               <a href="https://www.siemens.com/global/en.html" class="card-button" target="_blank">Learn more</a>
-            </div>
-            <div class="card card--sponsor animationRight">
-               <div class="card-head">
-                  <img src="res/icons/faulhaber.png" alt="" class="card-logo">
-                  <h3 class="card-headline">Faulhaber</h3>
-               </div>
-               <p class="card-description">We would like to express our sincere gratitude to Faulhaber for providing us with top-notch motors that power our innovative projects. Their precision and reliability have greatly contributed to our success.
-                  <br>
-                  To learn more about Faulhaber and explore their wide range of high-performance drive systems, visit their website!</p>
-               <a href="https://www.faulhaber.com/en/" class="card-button" target="_blank">Learn more</a>
-            </div>
-            <div class="card card--sponsor animationRight">
-               <div class="card-head">
-                  <img src="res/icons/ohm.png" alt="" class="card-logo">
-                  <h3 class="card-headline">Ohm-University</h3>
-               </div>
-               <p class="card-description">We would like to express our sincere gratitude to Prof. May and the ohm University of Applied Sciences in Nuremberg for their invaluable assistance. Their guidance and expertise have been instrumental in our success.
-                  <br>
-                  To learn more about the ohm University of Applied Sciences and explore their programs, visit their website!</p>
-               <a href="https://www.th-nuernberg.de/en/" class="card-button" target="_blank">Learn more</a>
-            </div>
-            <div class="card card--sponsor animationRight">
-               <div class="card-head">
-                  <img src="res/icons/emuge.png" alt="" class="card-logo">
-                  <h3 class="card-headline">Emuge</h3>
-               </div>
-               <p class="card-description">We would like to extend our sincere gratitude to Emuge for graciously honoring us with a generous donation. Emuge's commitment to innovation and excellence is evident in their generous donation, which has made a significant impact on our success. We take pride in having Emuge as a partner by our side and look forward to continuing to excel together.
-                  <br>
-                  To learn more about Emuge, visit their website!
-               </p>
-               <a href="https://www.emuge-franken-group.com/de/en/" class="card-button" target="_blank">Learn more</a>
-            </div>
-            <div class="card card--sponsor animationRight">
-               <div class="card-head">
-                  <img src="res/icons/3dconnexion.png" alt="" class="card-logo">
-                  <h3 class="card-headline">3Dconnexion</h3>
-               </div>
-               <p class="card-description">We extend our heartfelt appreciation to 3Dconnexion for their support with their 3D mouse, "SpaceMouse." Their contribution has been invaluable in enhancing our capabilities and efficiency in creating our 3D models. 3Dconnexion's dedication to providing innovative tools for design professionals is evident in the exceptional quality and performance of the SpaceMouse. We are truly grateful for their partnership and look forward to continued collaboration and success together.
-                  <br>
-                  To learn more about their products, follow the link!
-               </p>
-               <a href="https://3dconnexion.com/uk/" class="card-button" target="_blank">Learn more</a>
-            </div>
-            <div class="card card--sponsor animationRight">
-               <div class="card-head" id="lfy">
-                  <h3 class="card-headline">We're looking for you!</h3>
-               </div>
-               <p class="card-description">Would you like to support us with your company? We are currently seeking sponsors to support our robot! Your name could appear here and on the robot, alongside other renowned companies already involved in our project. Feel free to get in touch with us to learn more about our sponsorship opportunities!</p>
-               <a href="mailto:info@cjt-robotics.de?subject=Request%20Sponsorship" class="card-button">Send an eMail</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- END SPONSOR PAGE -->
-   <!-- RESOURCES PAGE -->
-   <section id="resources">
-      <div class="wrapper" id="resourcesWrapper">
-         <h1 class="section-headline animationLeft">Resources</h1>
-         <div class="container animationRight" id="containerResources">
-            <div class="resourceCard animationTop">
-               <h3>Team Discribtion Paper</h3>
-               <p>To participate at the RoboCup, each team must submit a Team Description Paper. This paper contains information how the Robot is built and what software is used so the reader would be able to construct a similar robot.</p>
-               <a href="https://drive.google.com/file/d/1CG2Z8dcoDLojl5TFONah0viwi83Gwcxa/view?usp=sharing"  target="_blank" class="card-button button--resources">Open TDP</a>
-            </div>
-            <div class="resourceCard animationRight">
-               <h3>3D-Models</h3>
-               <p>A lot of parts of the robot a 3D-printed and therefore modelled in before. An example for this is the suspension system, that was custom created to make sure it will withstand the mechanical forces. If are interested in these models, you can follow the link below.</p>
-               <a href="https://drive.google.com/drive/folders/1DqhKLt5K_8qPpIUqtAGT62EXCGsW8LTk?usp=sharing" target="_blank" class="card-button button--resources">Open Model-Folder</a>
-            </div>
-            <div class="resourceCard animationTop">
-               <h3>Videos & Images</h3>
-               <p>A lot of Photos and Videos were created during the competitions to better visualize the performance of the robot in difficult terrain. The Folder also contains technical photos that display its dimensions.</p>
-               <div>
-                  <a href="https://youtu.be/UXENGQurI-s" target="_blank" class="card-button button--resources button">Open Videoplaylist</a>
-                  <a href="https://drive.google.com/drive/folders/1pHyMs976UFkTRWWq-S6zDVopHQgebFj0?usp=sharing" target="_blank" class="card-button button--resources button" id="resources-button-in">Open Images-Folder</a>
-               </div>
-            </div>
-            <div class="resourceCard animationRight">
-               <h3>Others</h3>
-               <p>If we have any files that need to be shared and don’t fit in the categories mentioned before, they can be found here. When you miss some files feel free to contact us at <a href="mailto:info@cjt-robotics.de?subject=Missing%20element on website">contact@cjtrobotics.de</a></p>
-               <a href="#resources" class="card-button button--resources">Coming soon</a>
-            </div>
-         </div>
-      </div>
-      
-   </section>
-   <!-- END RESOURCES PAGE -->
-   <!-- SOCIAL MEDIA PAGE -->
-   <section id="socials">
-      <div class="wrapper" id="socialsWrapper">
-         <h1 class="section-headline animationLeft">Social Media</h1>
-         <div class="container" id="containerSocials">
-            <div class="card card--social animationRight">
-               <div class="card-head">
-                  <img src="res/icons/instagram.png" alt="" class="card-logo">
-                  <h3 class="card-headline">Instagram</h3>
-               </div>
-               <p class="card-description">On our Instagram profile, we upload pictures of our robot. Feel free to check out our content! Just click the button and enjoy!</p>
-               <a href="https://www.instagram.com/cjtrobotics/" target="_blank" class="card-button">See more</a>
-            </div>
-            <div class="card card--social animationRight">
-               <div class="card-head">
-                  <img src="res/icons/youtube.png" alt="" class="card-logo">
-                  <h3 class="card-headline">YouTube</h3>
-               </div>
-               <p class="card-description">On our YouTube channel, we upload videos of our robot at competitions, during the development phase, and its testing. To watch them, click the button!</p>
-               <a href="https://www.youtube.com/@CJT-Robotics" target="_blank" class="card-button">Watch more</a>
-            </div>
-            <div class="card card--social animationRight">
-               <div class="card-head">
-                  <img src="res/icons/github.png" alt="" class="card-logo">
-                  <h3 class="card-headline">GitHub</h3>
-               </div>
-               <p class="card-description">We publish our programs used for our robot on our GitHub profile. Additionally, it is documented for self-use or further expansion. To learn more, click the button!</p>
-               <a href="https://github.com/CJT-Robotics" target="_blank" class="card-button">Learn more</a>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- END SOCIAL MEDIA PAGE -->
-   <!-- FOOTER -->
-   <footer id="footer">
-      <div class="wrapper" id="footerWrapper">
-         <h1 class="section-headline animationLeft">Contact us</h1>
-         <div class="container" id="containerFooter">
-            <div id="topFooter">
-               <div id="leftFooter">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.2809734967454!2d11.26519209214318!3d49.516970980475136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a1e14ea0be20df%3A0x2547eb9b7a14727e!2sChristoph-Jacob-Treu%20Gymnasium!5e0!3m2!1sde!2sde!4v1709988747868!5m2!1sde!2sde" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  <a href="mailto:info@cjt-robotics.de">info@cjtrobotics.de</a>
-               </div>
-               <div id="rightFooter">
-                  <div id="socialLinks" class="animationRight">
-                     <a href="https://www.instagram.com/cjtrobotics/" target="_blank" class="socialMediaLink"><img src="res/icons/instagram.png" alt="Logo"></a>
-                     <a href="https://www.youtube.com/@CJT-Robotics" target="_blank" class="socialMediaLink"><img src="res/icons/youtube.png" alt="Logo"></a>
-                     <a href="https://github.com/CJT-Robotics" target="_blank" class="socialMediaLink"><img src="res/icons/github.png" alt="Logo"></a>
-                  </div>
-                  <div id="address" class="animationBottom">
-                     <p>Christoph-Jacob-Treu Gymnasium | CJT-Robotics</p>
-                     <p>Hardtstraße 37</p>
-                     <p>91207 Lauf an der Pegnitz</p>
-                  </div>
-               </div>
-            </div>
-            <div id="bottomFooter">
-               <p id="copyright">Copyright &COPY; Markus Peltsarszky 2024</p>
-            </div>
-         </div>
-      </div>
-   </footer>
-   <!-- END FOOTER -->
-   <!-- TOO SMALL -->
-   <div id="small">
-      <img src="res/logo.png" alt="">
-      <p>Sorry, this site doesn't support your device!</p>
-   </div>
-   <!-- END TOO SMALL -->
-   <script src="https://unpkg.com/scrollreveal"></script>
-   <script src="script.js"></script>
-</body>
+		<!-- CONTENT -->
+		<!-- LANDING PAGE -->
+		<section id="landing">
+			<div class="wrapper" id="landingWrapper">
+				<h1 class="animationLeft">
+					Hi, We're the <span>CJT-Robotics Team</span><br />of the
+					<a href="https://www.cjt-gym-lauf.de/" target="_blank"
+						>Christoph-Jacob-Treu-Gymnasium</a
+					>
+				</h1>
+			</div>
+		</section>
+		<!-- END LANDING PAGE -->
+		<!-- ABOUT US PAGE -->
+		<section id="team">
+			<div class="wrapper" id="teamWrapper">
+				<div id="leftTeam">
+					<img src="res/robot.png" alt="Image of our Robot 'Error 404'" />
+					<p>Our Robot 'Error 404'</p>
+				</div>
+				<div id="rightTeam">
+					<h1 class="section-headline animationLeft">About us</h1>
+					<div>
+						<p class="animationRight" id="aboutUsText">
+							We are a group of about ten high school students who are building
+							robots to compete in the
+							<a
+								href="https://major.robocup.de/ligen/rescue/?lang=en"
+								target="_blank"
+								>GermanOpen</a
+							>
+							and the
+							<a href="https://www.robocup.org/leagues/10" target="_blank"
+								>world championship</a
+							>. The category in which we are participating is called
+							<a href="https://rrl.robocup.org/" target="_blank"
+								>Robots Rescue League (RRL)</a
+							>. The aim is to develop a robot that is capable of driving into
+							potentially dangerous terrain, for example, destroyed houses after
+							an earthquake, and check for survivors. We are the only school
+							that has ever participated in these championships for a dozen
+							years. We are currently working on the robot named 'Error 404'.
+							This name corresponds to the phrase 'Error 404 Robot not Found'.
+							The history behind this name is that we started working on this
+							robot just before the Robocup started, so we went there with a
+							robot that basically didn’t exist.
+						</p>
+					</div>
+					<div class="animationBottom" id="tab-titles">
+						<p class="tab-link active-link" onclick="opentab('rewards')">
+							Rewards
+						</p>
+						<p class="tab-link" onclick="opentab('events')">Upcoming Events</p>
+						<p class="tab-link" onclick="opentab('members')">Team Members</p>
+					</div>
+					<div>
+						<div class="tab-content active-tab" id="rewards">
+							<ul>
+								<li>
+									<span>RoboCup Germany GermanOpen 2023</span>
+									<br />
+									Winner of the category "Small Robots" in the
+									RobotsRescueLeague
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content" id="events">
+							<ul>
+								<li>
+									<span>17th April 2024 - 21th April 2024</span>
+									<br />
+									RoboCup GermanOpen 2024
+								</li>
+								<li>
+									<span>15th July 2024 - 22th July 2024</span>
+									<br />
+									RoboCup WorldCup 2024
+								</li>
+								<li>
+									<span>Unknown</span>
+									<br />
+									Coming soon
+								</li>
+							</ul>
+						</div>
+						<div class="tab-content" id="members">
+							<ul>
+								<li><span>3D-Engineer</span><br />Noah Heckel</li>
+								<li><span>Constructor</span><br />Linus Gürne</li>
+								<li><span>Technician</span><br />Tim Hennig</li>
+								<li><span>Technician</span><br />Max Müller</li>
+								<li>
+									<span>Python & Network Developer</span><br />Philipp Fischer
+								</li>
+								<li>
+									<span>C++ & Network Developer</span><br />Markus Peltsarszky
+								</li>
+								<li><span>Team Leader</span><br />Rudolf Pausenberger</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END ABOUT US PAGE -->
+		<!-- SPONSOR PAGE -->
+		<section id="sponsors">
+			<div class="wrapper" id="sponsorsWrapper">
+				<h1 class="section-headline animationLeft">Our Sponsors</h1>
+				<div class="container" id="containerSponsors">
+					<div class="card card--sponsor animationRight">
+						<div class="card-head">
+							<img src="res/icons/Siemens.png" alt="" class="card-logo" />
+							<h3 class="card-headline">Siemens</h3>
+						</div>
+						<p class="card-description">
+							We extend our heartfelt appreciation to Siemens for providing us
+							with the cutting-edge IPC (Industrial PC) that has significantly
+							enhanced our technological capabilities. With Siemens' advanced
+							technology and reliability, we have been able to achieve new
+							heights in our projects.
+							<br />
+							To learn more about Siemens and discover their wide range of
+							innovative solutions, visit their today!
+						</p>
+						<a
+							href="https://www.siemens.com/global/en.html"
+							class="card-button"
+							target="_blank"
+							>Learn more</a
+						>
+					</div>
+					<div class="card card--sponsor animationRight">
+						<div class="card-head">
+							<img src="res/icons/faulhaber.png" alt="" class="card-logo" />
+							<h3 class="card-headline">Faulhaber</h3>
+						</div>
+						<p class="card-description">
+							We would like to express our sincere gratitude to Faulhaber for
+							providing us with top-notch motors that power our innovative
+							projects. Their precision and reliability have greatly contributed
+							to our success.
+							<br />
+							To learn more about Faulhaber and explore their wide range of
+							high-performance drive systems, visit their website!
+						</p>
+						<a
+							href="https://www.faulhaber.com/en/"
+							class="card-button"
+							target="_blank"
+							>Learn more</a
+						>
+					</div>
+					<div class="card card--sponsor animationRight">
+						<div class="card-head">
+							<img src="res/icons/ohm.png" alt="" class="card-logo" />
+							<h3 class="card-headline">Ohm-University</h3>
+						</div>
+						<p class="card-description">
+							We would like to express our sincere gratitude to Prof. May and
+							the ohm University of Applied Sciences in Nuremberg for their
+							invaluable assistance. Their guidance and expertise have been
+							instrumental in our success.
+							<br />
+							To learn more about the ohm University of Applied Sciences and
+							explore their programs, visit their website!
+						</p>
+						<a
+							href="https://www.th-nuernberg.de/en/"
+							class="card-button"
+							target="_blank"
+							>Learn more</a
+						>
+					</div>
+					<div class="card card--sponsor animationRight">
+						<div class="card-head">
+							<img src="res/icons/emuge.png" alt="" class="card-logo" />
+							<h3 class="card-headline">Emuge</h3>
+						</div>
+						<p class="card-description">
+							We would like to extend our sincere gratitude to Emuge for
+							graciously honoring us with a generous donation. Emuge's
+							commitment to innovation and excellence is evident in their
+							generous donation, which has made a significant impact on our
+							success. We take pride in having Emuge as a partner by our side
+							and look forward to continuing to excel together.
+							<br />
+							To learn more about Emuge, visit their website!
+						</p>
+						<a
+							href="https://www.emuge-franken-group.com/de/en/"
+							class="card-button"
+							target="_blank"
+							>Learn more</a
+						>
+					</div>
+					<div class="card card--sponsor animationRight">
+						<div class="card-head">
+							<img src="res/icons/3dconnexion.png" alt="" class="card-logo" />
+							<h3 class="card-headline">3Dconnexion</h3>
+						</div>
+						<p class="card-description">
+							We extend our heartfelt appreciation to 3Dconnexion for their
+							support with their 3D mouse, "SpaceMouse." Their contribution has
+							been invaluable in enhancing our capabilities and efficiency in
+							creating our 3D models. 3Dconnexion's dedication to providing
+							innovative tools for design professionals is evident in the
+							exceptional quality and performance of the SpaceMouse. We are
+							truly grateful for their partnership and look forward to continued
+							collaboration and success together.
+							<br />
+							To learn more about their products, follow the link!
+						</p>
+						<a
+							href="https://3dconnexion.com/uk/"
+							class="card-button"
+							target="_blank"
+							>Learn more</a
+						>
+					</div>
+					<div class="card card--sponsor animationRight">
+						<div class="card-head" id="lfy">
+							<h3 class="card-headline">We're looking for you!</h3>
+						</div>
+						<p class="card-description">
+							Would you like to support us with your company? We are currently
+							seeking sponsors to support our robot! Your name could appear here
+							and on the robot, alongside other renowned companies already
+							involved in our project. Feel free to get in touch with us to
+							learn more about our sponsorship opportunities!
+						</p>
+						<a
+							href="mailto:contact@cjt-robotics.de?subject=Request%20Sponsorship"
+							class="card-button"
+							>Send an eMail</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SPONSOR PAGE -->
+		<!-- RESOURCES PAGE -->
+		<section id="resources">
+			<div class="wrapper" id="resourcesWrapper">
+				<h1 class="section-headline animationLeft">Resources</h1>
+				<div class="container animationRight" id="containerResources">
+					<div class="resourceCard animationTop">
+						<h3>Team Discribtion Paper</h3>
+						<p>
+							To participate at the RoboCup, each team must submit a Team
+							Description Paper. This paper contains information how the Robot
+							is built and what software is used so the reader would be able to
+							construct a similar robot.
+						</p>
+						<a
+							href="https://drive.google.com/file/d/1CG2Z8dcoDLojl5TFONah0viwi83Gwcxa/view?usp=sharing"
+							target="_blank"
+							class="card-button button--resources"
+							>Open TDP</a
+						>
+					</div>
+					<div class="resourceCard animationRight">
+						<h3>3D-Models</h3>
+						<p>
+							A lot of parts of the robot a 3D-printed and therefore modelled in
+							before. An example for this is the suspension system, that was
+							custom created to make sure it will withstand the mechanical
+							forces. If are interested in these models, you can follow the link
+							below.
+						</p>
+						<a
+							href="https://drive.google.com/drive/folders/1DqhKLt5K_8qPpIUqtAGT62EXCGsW8LTk?usp=sharing"
+							target="_blank"
+							class="card-button button--resources"
+							>Open Model-Folder</a
+						>
+					</div>
+					<div class="resourceCard animationTop">
+						<h3>Videos & Images</h3>
+						<p>
+							A lot of Photos and Videos were created during the competitions to
+							better visualize the performance of the robot in difficult
+							terrain. The Folder also contains technical photos that display
+							its dimensions.
+						</p>
+						<div>
+							<a
+								href="https://youtu.be/UXENGQurI-s"
+								target="_blank"
+								class="card-button button--resources button"
+								>Open Videoplaylist</a
+							>
+							<a
+								href="https://drive.google.com/drive/folders/1pHyMs976UFkTRWWq-S6zDVopHQgebFj0?usp=sharing"
+								target="_blank"
+								class="card-button button--resources button"
+								id="resources-button-in"
+								>Open Images-Folder</a
+							>
+						</div>
+					</div>
+					<div class="resourceCard animationRight">
+						<h3>Others</h3>
+						<p>
+							If we have any files that need to be shared and don’t fit in the
+							categories mentioned before, they can be found here. When you miss
+							some files feel free to contact us at
+							<a
+								href="mailto:contact@cjt-robotics.de?subject=Missing%20element on website"
+								>contact@cjtrobotics.de</a
+							>
+						</p>
+						<a href="#resources" class="card-button button--resources"
+							>Coming soon</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RESOURCES PAGE -->
+		<!-- SOCIAL MEDIA PAGE -->
+		<section id="socials">
+			<div class="wrapper" id="socialsWrapper">
+				<h1 class="section-headline animationLeft">Social Media</h1>
+				<div class="container" id="containerSocials">
+					<div class="card card--social animationRight">
+						<div class="card-head">
+							<img src="res/icons/instagram.png" alt="" class="card-logo" />
+							<h3 class="card-headline">Instagram</h3>
+						</div>
+						<p class="card-description">
+							On our Instagram profile, we upload pictures of our robot. Feel
+							free to check out our content! Just click the button and enjoy!
+						</p>
+						<a
+							href="https://www.instagram.com/cjtrobotics/"
+							target="_blank"
+							class="card-button"
+							>See more</a
+						>
+					</div>
+					<div class="card card--social animationRight">
+						<div class="card-head">
+							<img src="res/icons/youtube.png" alt="" class="card-logo" />
+							<h3 class="card-headline">YouTube</h3>
+						</div>
+						<p class="card-description">
+							On our YouTube channel, we upload videos of our robot at
+							competitions, during the development phase, and its testing. To
+							watch them, click the button!
+						</p>
+						<a
+							href="https://www.youtube.com/@CJT-Robotics"
+							target="_blank"
+							class="card-button"
+							>Watch more</a
+						>
+					</div>
+					<div class="card card--social animationRight">
+						<div class="card-head">
+							<img src="res/icons/github.png" alt="" class="card-logo" />
+							<h3 class="card-headline">GitHub</h3>
+						</div>
+						<p class="card-description">
+							We publish our programs used for our robot on our GitHub profile.
+							Additionally, it is documented for self-use or further expansion.
+							To learn more, click the button!
+						</p>
+						<a
+							href="https://github.com/CJT-Robotics"
+							target="_blank"
+							class="card-button"
+							>Learn more</a
+						>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END SOCIAL MEDIA PAGE -->
+		<!-- FOOTER -->
+		<footer id="footer">
+			<div class="wrapper" id="footerWrapper">
+				<h1 class="section-headline animationLeft">Contact us</h1>
+				<div class="container" id="containerFooter">
+					<div id="topFooter">
+						<div id="leftFooter">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.2809734967454!2d11.26519209214318!3d49.516970980475136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a1e14ea0be20df%3A0x2547eb9b7a14727e!2sChristoph-Jacob-Treu%20Gymnasium!5e0!3m2!1sde!2sde!4v1709988747868!5m2!1sde!2sde"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+							<a href="mailto:contact@cjt-robotics.de"
+								>contact@cjt-robotics.de</a
+							>
+						</div>
+						<div id="rightFooter">
+							<div id="socialLinks" class="animationRight">
+								<a
+									href="https://www.instagram.com/cjtrobotics/"
+									target="_blank"
+									class="socialMediaLink"
+									><img src="res/icons/instagram.png" alt="Logo"
+								/></a>
+								<a
+									href="https://www.youtube.com/@CJT-Robotics"
+									target="_blank"
+									class="socialMediaLink"
+									><img src="res/icons/youtube.png" alt="Logo"
+								/></a>
+								<a
+									href="https://github.com/CJT-Robotics"
+									target="_blank"
+									class="socialMediaLink"
+									><img src="res/icons/github.png" alt="Logo"
+								/></a>
+							</div>
+							<div id="address" class="animationBottom">
+								<p>Christoph-Jacob-Treu Gymnasium | CJT-Robotics</p>
+								<p>Hardtstraße 37</p>
+								<p>91207 Lauf an der Pegnitz</p>
+							</div>
+						</div>
+					</div>
+					<div id="bottomFooter">
+						<p id="copyright">Copyright &COPY; Markus Peltsarszky 2024</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+		<!-- TOO SMALL -->
+		<div id="small">
+			<img src="res/logo.png" alt="" />
+			<p>Sorry, this site doesn't support your device!</p>
+		</div>
+		<!-- END TOO SMALL -->
+		<script src="https://unpkg.com/scrollreveal"></script>
+		<script src="script.js"></script>
+	</body>
 </html>
