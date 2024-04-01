@@ -848,6 +848,10 @@ section {
       #containerResources {
          height: 550px;
       }
+
+      .resourceCard h3 {
+         line-height: 30px;
+      }
    }
 
    @media only screen and (max-width: 1770px) {
