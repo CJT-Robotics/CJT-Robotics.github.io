@@ -833,6 +833,90 @@ section {
       margin-left: 185px;
    }
 
+   .slideshow{
+      margin-top: 50px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding-top: 15px;
+      padding-bottom: 25px;
+}
+
+   .slideshowelement{
+         width: calc(1920px * 0.5);
+         height: calc(1080px * 0.5);
+         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+         position: relative;
+   }
+
+   .slideshowpage{
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         overflow: hidden;
+         opacity: 0;
+         transition: 1500ms;
+   }
+
+   .slideshowpage img{
+         width: auto;
+         height: 100%;
+   }
+
+   .arrow{
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         font-size: 50px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 15%;
+         color: var(--secondary_background);
+         transition: 300ms;
+         cursor: pointer;
+   }
+
+   .arrow:hover{
+         color: var(--primary_accent);
+   }
+
+   .arrow-left{
+         left: 0;
+   }
+
+   .arrow-right{
+         right: 0;
+   }
+
+   .points-list{
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         list-style: none;
+         font-size: 50px;
+         display: flex;
+         justify-content: center;
+   }
+
+   .point{
+         padding-right: 10px;
+         padding-left: 10px;
+         cursor: pointer;
+         opacity: 0.5;
+         color: var(--secondary_background);
+   }
+
+   .aktiv{
+         opacity: 1;
+         color: var(--primary_accent);
+   }
+
    @media only screen and (max-width: 2500px) {
       #containerResources {
          height: 500px;
@@ -856,9 +940,9 @@ section {
 
    @media only screen and (max-width: 1770px) {
       #containerResources {
-         height: 900px;
+         height: 1800px;
 
-         grid-template-columns: 40% 40%;
+         grid-template-columns: 80%;
       }
       #resources-button-in {
          margin-left: 185px;
@@ -879,31 +963,6 @@ section {
 
    @media only screen and (max-width: 1050px) {
       #containerResources {
-         height: 1000px;
-      }
-   }
-
-   @media only screen and (max-width: 1770px) {
-      #containerResources {
-         height: 1800px;
-
-         grid-template-columns: 80%;
-      }
-      #resources-button-in {
-         margin-left: 185px;
-         bottom: 25px;
-      }
-   }
-
-   @media only screen and (max-width: 770px) {
-      #resources-button-in {
-         margin-left: 140px;
-         bottom: 25px;
-      }
-   }
-
-   @media only screen and (max-width: 1050px) {
-      #containerResources {
          height: 1500px;
       }
 
@@ -914,6 +973,37 @@ section {
       .resourceCard p {      
          font-size: 12px;
       }
+
+      .slideshowelement{
+         width: calc(1920px * 0.35);
+         height: calc(1080px * 0.35);
+      }
+   }
+
+   @media only screen and (max-width: 770px) {
+      #resources-button-in {
+         margin-left: 140px;
+         bottom: 25px;
+      }
+
+      .slideshowelement{
+         width: calc(1920px * 0.2);
+         height: calc(1080px * 0.2);
+      }
+
+      .arrow{
+         font-size: 25px;
+      }
+
+      .points-list{
+         font-size: 25px;
+      }
+
+      .point {
+         padding-right: 5px;
+         padding-left: 5px;
+      }
+      
    }
 
    @media only screen and (max-width: 500px) {
@@ -924,6 +1014,11 @@ section {
       #resources-button-in {
          margin-left: -10px;
          bottom: 70px;
+      }
+
+      .slideshowelement{
+         width: calc(1920px * 0.15);
+         height: calc(1080px * 0.15);
       }
    }
 
@@ -946,7 +1041,14 @@ section {
          margin-left: -10px;
          bottom: 55px;
       }
+
+      .slideshowelement{
+         width: calc(1920px * 0.12);
+         height: calc(1080px * 0.12);
+      }
    }
+
+
 /* END Resources page */
 
 /* Social media page */

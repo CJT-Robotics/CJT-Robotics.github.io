@@ -344,7 +344,7 @@
 						</div>
 					</div>
 					<div class="resourceCard animationRight">
-						<h3>Others</h3>
+						<h3>Wikis</h3>
 						<p>
 							If we have any files that need to be shared and don’t fit in the
 							categories mentioned before, they can be found here. When you miss
@@ -354,9 +354,51 @@
 								>contact@cjt-robotics.de</a
 							>
 						</p>
-						<a href="#resources" class="card-button button--resources"
-							>Coming soon</a
-						>
+						<div>
+							<a
+								href="https://github.com/CJT-Robotics/hardware-docs/wiki/"
+								target="_blank"
+								class="card-button button--resources"
+								>Hardware Wiki</a
+							>
+							<a
+								href="#"
+								target="_blank"
+								class="card-button button--resources button"
+								id="resources-button-in"
+								>Coming soon</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="container" id="containerSlideshow">
+					<div class="slideshow">
+						<div class="slideshowelement">
+							<div class="slideshowpage">
+								<img src="res/noImages.png" alt="" />
+							</div>
+							<div class="slideshowpage">
+								<img src="res/noImages.png" alt="" />
+							</div>
+							<div class="slideshowpage">
+								<img src="res/noImages.png" alt="" />
+							</div>
+							<div class="slideshowpage">
+								<img src="res/noImages.png" alt="" />
+							</div>
+							<a class="arrow arrow-left" onclick="switchPage(-1)">
+								<span>&#10094;</span>
+							</a>
+							<a class="arrow arrow-right" onclick="switchPage(1)">
+								<span>&#10095;</span>
+							</a>
+							<ol class="points-list">
+								<li class="point" onclick="jump(0)">&#8226;</li>
+								<li class="point" onclick="jump(1)">&#8226;</li>
+								<li class="point" onclick="jump(2)">&#8226;</li>
+								<li class="point" onclick="jump(3)">&#8226;</li>
+							</ol>
+						</div>
 					</div>
 				</div>
 			</div>
