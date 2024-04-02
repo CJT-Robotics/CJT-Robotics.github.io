@@ -940,7 +940,7 @@ section {
 
    @media only screen and (max-width: 1770px) {
       #containerResources {
-         height: 1800px;
+         height: 1500px;
 
          grid-template-columns: 80%;
       }
@@ -952,7 +952,7 @@ section {
 
    @media only screen and (max-width: 1400px) {
       #containerResources {
-         height: 1000px;
+         height: 1600px;
       }
 
       #resources-button-in {
