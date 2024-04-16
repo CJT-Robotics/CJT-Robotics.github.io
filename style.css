@@ -449,6 +449,15 @@ section {
       user-select: text;
    }
 
+   .tab-content ul li#liveLi {
+      font-weight: 600;
+   }
+
+   .tab-content ul li span#liveSpan {
+      color: var(--primary_accent);
+      font-weight: 600;
+   }
+
    @media only screen and (max-width: 1250px) {
       #teamWrapper {
          flex-direction: column;
