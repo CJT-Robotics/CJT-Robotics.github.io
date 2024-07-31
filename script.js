@@ -1,8 +1,8 @@
 ScrollReveal({
 	reset: true,
 	distance: '50px',
-	duration: 2000,
-	delay: 200,
+	duration: 1000,
+	delay: 100,
 });
 
 ScrollReveal().reveal('.animationLeft', { origin: 'left' });
