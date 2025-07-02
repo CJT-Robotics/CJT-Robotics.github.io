@@ -69,3 +69,14 @@ function automatic(){
 }
 
 setInterval(automatic, 15000);
+
+const fontsNotice = document.getElementById('fontsNotice');
+const fontsNoticeButton = document.getElementById('fontsNoticeButton');
+
+function closeFontsNotice() {
+    fontsNotice.style.display = 'none';
+}
+
+if (fontsNoticeButton) {
+    fontsNoticeButton.addEventListener('click', closeFontsNotice);
+}
