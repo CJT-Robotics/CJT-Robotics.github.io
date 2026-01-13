@@ -373,6 +373,8 @@ section {
 
    font-family: 'Poppins';
    font-size: 20px;
+
+   color: var(--primary_text);
 }
 
 #rightTeam {
@@ -1391,4 +1393,5 @@ section {
    border-radius: 5px;
    color: var(--primary_text);
    cursor: pointer;
+
 }
