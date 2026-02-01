@@ -40,7 +40,7 @@ async function fetchSponsors() {
 
         let cardsHtml = sponsors.map(s => {
             let descriptionHtml = s.description ? `<p class="card-description">${s.description}</p>` : "";
-            let ctaHtml = s.cta ? `<p class="card-description" style="margin-top: 15px; font-style: italic;">${s.cta}</p>` : "";
+            let ctaHtml = s.cta ? `<p class="card-description" style="margin-top: 15px; margin-bottom: 15px; font-style: italic;">${s.cta}</p>` : "";
 
             return `
                 <div class="card card--sponsor animationRight">
