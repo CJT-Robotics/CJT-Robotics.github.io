@@ -1,0 +1,65 @@
+[
+   {
+      "name": "Korea Revision",
+      "logo": "res/icons/korea_revision.png",
+      "url": "https://www.korearevision.com/en/",
+      "description": "We would like to express our sincere thanks to Korea Revision for their generous sponsorship and support. Their commitment to quality, precision, and technical excellence plays an important role in advancing our work and ambitions. This support has had a meaningful impact on our progress, and we are proud to have Korea Revision as a valued partner on our journey.",
+      "cta": ""
+   },
+   {
+      "name": "Faulhaber",
+      "logo": "res/icons/faulhaber.png",
+      "url": "https://www.faulhaber.com/en/",
+      "description": "We would like to express our sincere gratitude to Faulhaber for providing us with top-notch motors that power our innovative projects. Their precision and reliability have greatly contributed to our success.",
+      "cta": "To learn more about Faulhaber and explore their wide range of high-performance drive systems, visit their website!"
+   },
+   {
+      "name": "JLCPCB",
+      "logo": "res/icons/jlcpcb.png",
+      "url": "https://jlcpcb.com/de?from=cjt_robotics",
+      "description": "We would like to express our sincere gratitude to JLCPCB for partnering with CJT Robotics and supporting our team with PCB, PCBA, 3D printing, and CNC machining services. Their reliable manufacturing quality and fast turnaround have been essential in bringing our robotic designs to life and preparing us for competition. We are proud to have JLCPCB as a trusted partner and look forward to continued collaboration.",
+      "cta": "To learn more about JLCPCB and their manufacturing services, visit their website!"
+   },
+   {
+      "name": "Emuge",
+      "logo": "res/icons/emuge.png",
+      "url": "https://www.emuge-franken-group.com/de/en/",
+      "description": "We would like to extend our sincere gratitude to Emuge for graciously sponsoring us with a generous donation. Emuge's commitment to innovation and excellence is evident in their generous donation, which has made a significant impact on our success. We take pride in having Emuge as a partner by our side and look forward to continuing to excel together.",
+      "cta": "To learn more about Emuge, visit their website!"
+   },
+   {
+      "name": "Sparkasse Nürnberg",
+      "logo": "res/icons/sparkasse_nue.svg",
+      "url": "https://www.sparkasse-nuernberg.de/de/home.html",
+      "description": "",
+      "cta": "To learn more about Sparkasse Nürnberg, visit their website!"
+   },
+   {
+      "name": "ROBOTIS",
+      "logo": "res/icons/robotis.png",
+      "url": "https://en.robotis.com/",
+      "description": "We would like to express our sincere gratitude to ROBOTIS from South Korea for providing us with cutting-edge robot actuators. Thanks to their generosity, we are able to build our robotic arm. ROBOTIS actuators play a crucial role in the precision and performance of our project. We deeply value our partnership with ROBOTIS and look forward to continued success together.",
+      "cta": "To learn more about the ROBOTIS and explore a diverse product line-up of robot actuators, visit their website!"
+   },
+   {
+      "name": "Ohm-University",
+      "logo": "res/icons/ohm.png",
+      "url": "https://www.th-nuernberg.de/en/",
+      "description": "We would like to express our sincere gratitude to Prof. May and the ohm University of Applied Sciences in Nuremberg for their invaluable assistance. Their guidance and expertise have been instrumental in our success.",
+      "cta": "To learn more about the ohm University of Applied Sciences and explore their programs, visit their website!"
+   },
+   {
+      "name": "Siemens",
+      "logo": "res/icons/Siemens.png",
+      "url": "https://www.siemens.com/global/en.html",
+      "description": "We extend our heartfelt appreciation to Siemens for providing us with the cutting-edge IPC (Industrial PC) that has significantly enhanced our technological capabilities. With Siemens' advanced technology and reliability, we have been able to achieve new heights in our projects.",
+      "cta": "To learn more about Siemens and discover their wide range of innovative solutions, visit their website!"
+   },
+   {
+      "name": "3Dconnexion",
+      "logo": "res/icons/3dconnexion.png",
+      "url": "https://3dconnexion.com/uk/",
+      "description": "We extend our heartfelt appreciation to 3Dconnexion for their support with their 3D mouse, \"SpaceMouse.\" Their contribution has been invaluable in enhancing our capabilities and efficiency in creating our 3D models. 3Dconnexion's dedication to providing innovative tools for design professionals is evident in the exceptional quality and performance of the SpaceMouse. We are truly grateful for their partnership and look forward to continued collaboration and success together.",
+      "cta": "To learn more about their products, follow the link!"
+   }
+]

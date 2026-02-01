@@ -1,0 +1,17 @@
+[
+   {
+      "date": "10th - 14th March 2026",
+      "name": "RoboCup German Open",
+      "status": false
+   },
+   {
+      "date": "30th June - 6th July 2026",
+      "name": "RoboCup World Cup, South Korea, Seoul Incheon",
+      "status": false
+   },
+   {
+      "date": "In future",
+      "name": "Coming soon",
+      "status": false
+   }
+]
