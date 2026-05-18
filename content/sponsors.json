@@ -7,6 +7,13 @@
       "cta": ""
    },
    {
+      "name": "Siemens Energy",
+      "logo": "res/icons/siemens_energy.png",
+      "url": "https://www.siemens-energy.com/",
+      "description": "We would like to express our sincere thanks to Siemens Energy for their generous sponsorship and support. Their commitment to innovation and excellence plays an important role in advancing our work and ambitions. This support has had a meaningful impact on our progress, and we are proud to have Siemens Energy as a valued partner on our journey.",
+      "cta": "To learn more about Siemens Energy and discover their wide range of innovative solutions, visit their website!"
+   },
+   {
       "name": "Faulhaber",
       "logo": "res/icons/faulhaber.png",
       "url": "https://www.faulhaber.com/en/",
