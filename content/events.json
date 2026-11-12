@@ -1,8 +1,14 @@
 [
       {
+      "date": "15th - 20th June 2027",
+      "name": "RoboCup 2027 (World Cup), Nuremberg, Germany",
+      "status": false
+      },
+      {
       "date": "In future",
       "name": "Coming soon",
+      "_comment": "false|live"
       "status": false
-   }
+      }
 ]
 
